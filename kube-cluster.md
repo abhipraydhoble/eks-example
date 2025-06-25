@@ -1,6 +1,3 @@
-Here is a **step-by-step guide** to install a Kubernetes cluster using **Kubeadm** based on your provided file. This includes instructions for **Master Node** and **Worker Nodes** separately.
-
----
 
 ## ✅ **Pre-Requisites**
 

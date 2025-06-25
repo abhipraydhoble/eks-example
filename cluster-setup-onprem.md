@@ -9,9 +9,7 @@
 ## Execute on Both "Master" & "Worker Node"
 
 Run the following commands on both the master and worker nodes to prepare them for kubeadm.
-````
-bash
-````
+
 ## disable swap
 ````
 sudo swapoff -a

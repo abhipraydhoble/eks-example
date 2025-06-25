@@ -89,8 +89,9 @@ sudo chown "$(id -u)":"$(id -g)" "$HOME"/.kube/config
 ````
 kubectl apply -f https://raw.githubusercontent.com/projectcalico/calico/v3.26.0/manifests/calico.yaml
 ````
+````
 kubeadm token create --print-join-command
-
+````
 
 - You will get kubeadm token, *Copy it*.
   <img src="https://raw.githubusercontent.com/faizan35/kubernetes_cluster_with_kubeadm/main/Img/kubeadm-token.png" width="75%">

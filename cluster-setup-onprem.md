@@ -76,7 +76,6 @@ sudo systemctl start kubelet
 
 ## Execute ONLY on "Master Node"
 ````
-bash
 sudo kubeadm config images pull
 ````
 ````
@@ -104,15 +103,16 @@ kubeadm token create --print-join-command
 
 1. Perform pre-flight checks
 
-   bash
+````
    sudo kubeadm reset pre-flight checks
+````
    
 
 2. Paste the join command you got from the master node and append --v=5 at the end.
 
-   bash
+ ````
    sudo your-token --v=5
-   
+ ```` 
 
    > Use sudo before the token.
 
@@ -122,9 +122,9 @@ kubeadm token create --print-join-command
 
 *On Master Node:*
 
-bash
+````
 kubectl get nodes
-
+````
 
    <img src="https://raw.githubusercontent.com/faizan35/kubernetes_cluster_with_kubeadm/main/Img/nodes-connected.png" width="70%">
 
